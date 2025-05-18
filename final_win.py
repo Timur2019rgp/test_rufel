@@ -44,7 +44,7 @@ class FinalWin(QWidget):
             self.res = txt_res4
         elif self.index < age[2]:
             self.res = txt_res3
-        elif self.index < age[4]:
+        elif self.index < age[3]:
             self.res = txt_res2
         else:
             self.res = txt_res1
